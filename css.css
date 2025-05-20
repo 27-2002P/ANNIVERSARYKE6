@@ -1,0 +1,168 @@
+/* Reset margin dan padding untuk semua elemen */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style untuk body */
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #870569;
+    color: #080101;
+    line-height: 1.6;
+}
+
+/* Container utama */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Header */
+header {
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 3em;
+    color: #0b0302;
+    margin-bottom: 10px;
+    animation: fadeIn 2s ease;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #0c0404;
+}
+
+/* Animasi untuk fadeIn */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Bagian Video */
+.video-section {
+    margin-bottom: 40px;
+}
+
+.video-section h2 {
+    font-size: 2.5em;
+    color: #0b0302;
+    margin-bottom: 20px;
+}
+
+.video-container iframe {
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.gift-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #050202;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.gift-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.gift-info {
+    padding: 20px;
+}
+
+.gift-info h3 {
+    font-size: 1.8em;
+    color: #333;
+}
+
+.gift-info p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+/* Form Ucapan */
+.message-section {
+    margin-bottom: 40px;
+}
+
+.message-section h2 {
+    font-size: 2.5em;
+    color: #0e0504;
+    margin-bottom: 20px;
+}
+
+.message-form textarea {
+    width: 60%;
+    height: 150px;
+    padding: 15px;
+    border: 1px solid #110606;
+    border-radius: 10px;
+    font-size: 1.1em;
+    resize: none;
+    margin-bottom: 10px;
+}
+
+.message-form button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: rgb(13, 3, 3);
+    background-color: #070201;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.message-form button:hover {
+    background-color: #e55347;
+}
+
+/* Galeri Gambar */
+.gallery-section {
+    margin-bottom: 40px;
+}
+
+.gallery-section h2 {
+    font-size: 2.5em;
+    color: #0d0503;
+    margin-bottom: 20px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    width: 150px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+}
+
+/* Footer */
+footer {
+    font-size: 1.2em;
+    color: #100101;
+    margin-top: 30px;
+}
